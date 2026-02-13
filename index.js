@@ -1,5 +1,6 @@
-let school = {(properites = name, average class size, mascot)};
+let school = {(name, averageClassSize, mascot)};
 
-document.getElementById("result").innerHTML = "${Hannah};
+document.getElementById("result").innerHTML = ${name} ${averageClassSize} ${mascot} ;
+
 
 
